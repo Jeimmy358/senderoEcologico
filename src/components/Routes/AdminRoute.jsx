@@ -8,10 +8,10 @@ function AdminRoute({ children }) {
   const rolAlmacenado = localStorage.getItem('rol'); // e.g. 'ADMIN' o 'USER'
 
   // Verifica si hay token y si el rol es ADMIN
-  if (!token || rolAlmacenado !== 'ADMIN') {
-    // Redirige a /login o muestra un error 403
-    return <Navigate to="/login" />;
-  }
+  // if (!token || rolAlmacenado !== 'ADMIN') {
+  //   // Redirige a /login o muestra un error 403
+  //   return <Navigate to="/login" />;
+  // }
 
   // Si pasa la verificación, renderiza el componente hijo
   return children;

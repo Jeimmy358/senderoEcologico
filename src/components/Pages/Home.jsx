@@ -20,7 +20,7 @@ const Home = () => {
       <section className="stationsContainer">
         <div className="stationCard">
           <img
-            src="https://via.placeholder.com/600x300"
+            src="https://elportal.com.co/wp-content/uploads/2017/04/senderos7-1024x683.jpg"
             alt="Estación 4"
             className="stationImage"
           />
